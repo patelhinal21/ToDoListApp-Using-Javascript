@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TO-DO APP</title>
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+  <h1>TO-DO APP</h1>
+  <!--Title of the app-->
+  <img class="image" src="/images/notesicon.png"assignment-height="100px"> 
+  <!--adding image icon-->
+  <div class="container">
+
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+  <div class="right">
+    <h3>Your Tasks</h3>
+  </div>
+  <div class="center">
+    <div>
+      <ol id="list"></ol>
+    </div>
+    <!--list to display all the to-do tasks-->
+    <div class="forminput">
+      <form id="form" style="display: none;">
+        <!--form input tags to input data from the user-->
+
+        <br><br>
+        <div><label for="title">Title </label></div>
+        <input class="box" type="text" onfocus="this.type='text'" onblur="this.type='text'"
+          placeholder="enter your title here" name="title" id="title" required minlength="1" maxlength="500" />
+        <!--adding length validations for title-->
+        <br> <br>
+        <div><label for="description">Description </label></div>
+        <input class="box" type="text" onfocus="this.type='text'" onblur="this.type='text'"
+          placeholder="enter your description" name="description" id="description" required minlength="1"
+          maxlength="500" />
+        <!--adding length validations for description-->
+        <br> <br>
+        <div><label for="due_date">Due Date </label></div>
+        <input class="box" type="date" placeholder="enter your due date here" name="due_date" id="due_date"
+          min="2022-10-17" max="2022-10-31" step="1" />
+        <br> <br>
+        <div> <label for="time">Due Time</label></div>
+
+        <input class="box" type="time" id="time" name="time" required>
+        <br> <br>
+        <div id="msg"></div>
+        <button class="addNewTodobtn" type="button" onclick="onFormInput()" id="add">Add </button>
+      </form>
+      <button class="addNewTodobtn" type="button" onclick="addNewToDoItemBtn()" id="toggle">Add New To-Do Item</button>
+    </div>
+  </div>
+  <script src="scripts/events.js"></script>
+</body>
+
+</html>

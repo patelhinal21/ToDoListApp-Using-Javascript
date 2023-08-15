@@ -1,0 +1,26 @@
+[
+    {
+    "id": 1,
+    "title": "Complete Assignment 2 of AED",
+    "description": "Build Interfaces for Hospital Management System",
+    "due_date": "30 th Oct 2022",
+    "due_time": "12:00 AM",
+    "status": "open"
+},
+{
+    "id": 2,
+    "title": "Complete Assignment 3 of COOP",
+    "description": "professional Writting",
+    "due_date": "18 th Oct 2022",
+    "due_time": "9:00 AM",
+    "status": "open"
+},
+{
+    "id": 3,
+    "title": "Complete Assignment 6 of Web Design",
+    "description": "Build a To-do App Using JS",
+    "due_date": "19 th Oct 2022",
+    "due_time": "5:00 PM",
+    "status": "open"
+}
+]

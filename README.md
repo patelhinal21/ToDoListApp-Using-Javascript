@@ -1,4 +1,4 @@
-:Aim to build a to-do list app using javascript. 
+Aim to build a to-do list app using javascript. 
 
 Description: To build a to-do app using javascript
 - To Add multiple data (key value pair) of tasks in json file

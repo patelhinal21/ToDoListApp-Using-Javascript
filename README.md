@@ -1,8 +1,4 @@
-# assignment-5-base
-
-Name : Hinal Prabodh Patel
-NEUID : 002766180
-Requirements :Aim to build a to-do list app using javascript. 
+:Aim to build a to-do list app using javascript. 
 
 Description: To build a to-do app using javascript
 - To Add multiple data (key value pair) of tasks in json file
@@ -12,9 +8,7 @@ Description: To build a to-do app using javascript
 - To Display form on click of a button to input data
 - To Add a new to-do on the click of add button after the data is inputed and validated
 
-Instructions: 
-- To clone the repository from git using
-git clone git@github.com:neu-mis-info6150-fall-2022/assignment-6-patelhinal21.git reviewassgn5
+
 
 - to install node modules
 
@@ -24,10 +18,3 @@ sass —watch styles/main.scss dist/main.css
 npx  styles/main.scss dist/main.css
 
 -open html file using live server
-
-
-
-
-
-             
-`
